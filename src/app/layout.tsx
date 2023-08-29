@@ -11,6 +11,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  console.log(children);
   return (
     <html lang="en">
       <body className="text-center max-w-2xl border border-black m-auto">
