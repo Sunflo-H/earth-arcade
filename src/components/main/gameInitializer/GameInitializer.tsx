@@ -1,12 +1,14 @@
 "use client";
 
+import StartBtn from "@/components/ui/StartBtn";
+
 type propsType = {
   //   isGameStart: number;
   //   onSubmit: () => void;
   setIsGameStart: (param: number) => void;
 };
 
-const GameSetting: React.FC<propsType> = ({ setIsGameStart }) => {
+const GameInitializer: React.FC<propsType> = ({ setIsGameStart }) => {
   const onSubmit = (event: any): void => {
     setIsGameStart(1);
   };
@@ -26,9 +28,9 @@ const GameSetting: React.FC<propsType> = ({ setIsGameStart }) => {
         <option value="old">옛날 가수</option>
         <option value="mix">모두</option>
       </select>
-      <input type="submit" value="퀴즈 시작"></input>
+      <StartBtn />
     </form>
   );
 };
 
-export default GameSetting;
+export default GameInitializer;
