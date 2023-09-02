@@ -11,8 +11,8 @@ const Image = () => {
   // }
 
   // const s3 = new AWS.S3({
-  //   accessKeyId: "AKIA2YVAHNHF5647IIQM",
-  //   secretAccessKey: "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",
+  //   accessKeyId: "",
+  //   secretAccessKey: "",
   //   region: "ap-northeast-2",
   // });
 
